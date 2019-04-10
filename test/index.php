@@ -4,7 +4,7 @@ include "dbVars.php";
   // Create database connection
   try {
 
-        $conn = new PDO("mysql:host=127.0.0.1;dbname=c3664upload", 'c3664giovanni', 'Vp5p_VthWZ');
+        $conn = new PDO("mysql:host=".$myHost.";dbname=".$myDB, $uid, $pwd);
         // $conn = new PDO("mysql:host=localhost;dbname=image_upload", 'okdoei', 'okdoei');
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 

@@ -26,14 +26,14 @@
 
 		<header class="header">
 			<div class="title">
-				<h2><a class="titleLink" href="index.html">HyverGram</a></h2>
+				<h2><a class="titleLink" href="timeline.php">HyverGram</a></h2>
 			</div>
 			<div class="navigation">
 				<ul class="topnav">
 					<div class="toggleText">Dark/Light</div>
 			<div class="toggle"></div>
 					<li><a href="timeline.php">Timeline <i style='font-size:24px' class='fas'>&#xf015;</i></a></li>
-					<li><a class="active" href="upload.php">Upload <i class="material-icons">&#xe2c3;</i></a></li>
+					<li><a href="upload.php">Upload <i class="material-icons">&#xe2c3;</i></a></li>
 					<li><a href="login.php">Login <i style="font-size:24px" class="fa">&#xf013;</i></a></li>
 					<li><a href="profile.php">Profile <i class="fa fa-user"></i></a></li>
 					<li class="search-container">

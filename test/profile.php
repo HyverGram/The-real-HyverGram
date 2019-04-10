@@ -29,7 +29,8 @@
 		  // Create database connection
 		  try {
 
-		        $conn = new PDO("mysql:host=127.0.0.1;dbname=c3664upload", 'c3664giovanni', 'Vp5p_VthWZ');
+				$conn = new PDO("mysql:host=$myHost;dbname=$myDB", $uid, $pwd);
+
 		        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 		        $result = $conn->query('SELECT * FROM `images`');
