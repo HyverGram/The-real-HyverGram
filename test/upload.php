@@ -42,7 +42,8 @@ if (isset($_FILES['image'])) {
 ?>
 <?php include 'header.php';?>
 
-			<form method="POST" action="upload.php" enctype="multipart/form-data">
+			<form id="upload-form" method="POST" action="upload.php" enctype="multipart/form-data">
+        <p class="disclaimer">Pictures must be under 2mb to upload.</p>
 				<input type="hidden" name="size" value="1000000">
 				<div>
 					<input type="file" name="image">
